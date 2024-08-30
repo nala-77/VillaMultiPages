@@ -93,7 +93,7 @@ function App() {
       <Navbar logo="villa" links={links} />
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/VillaMultiPages" element={<Home />} />
         <Route path="/properties" element={<Properties />} />
         <Route path="/property-details" element={<PropertyDetails />} />
         <Route path="/contact-us" element={<Contact />} />
